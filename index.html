@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Criando rede social</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="./src/assets/img/logo.svg" alt="" />
+      <p>Sair</p>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+      <!-- ÁREA 1 (CRIAÇÃO DE POST E SUGESTÕES)-->
+      <section>
+        <!-- CRIAÇÃO DE UM NOVO POST -->
+        <section>
+          <div>
+            <img src="./src/assets/img/user1.svg" alt="Samuel" />
+            <div>
+              <h2>Samuel Leão</h2>
+              <p>Front end Engineer</p>
+            </div>
+          </div>
+
+          <!-- FORM DE CRIAÇÃO DE UM NOVO POST -->
+          <form>
+            <input
+              type="text"
+              placeholder="Digite o título do post"
+              required=""
+            />
+            <textarea
+              placeholder="Digite a descrição do post"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              required=""
+            ></textarea>
+            <button type="submit">Postar</button>
+          </form>
+        </section>
+
+        <!-- SUGESTÕES PARA SEGUIR -->
+        <section>
+          <h2>Sugestões para você seguir</h2>
+          <ul>
+            <!-- SUGESTÃO 1 -->
+            <li>
+              <div>
+                <img src="./src/assets/img/user2.svg" alt="Carlos Lima" />
+                <div>
+                  <h2>Carlos Lima</h2>
+                  <p>UX e UI Designer</p>
+                </div>
+              </div>
+              <button>Seguir</button>
+            </li>
+            <!-- SUGESTÃO 2 -->
+            <li>
+              <div>
+                <img src="./src/assets/img/user3.svg" alt="Rafael Bertoldo" />
+                <div>
+                  <h2>Rafael Bertoldo</h2>
+                  <p>Devop's</p>
+                </div>
+              </div>
+              <button>Seguir</button>
+            </li>
+            <!-- SUGESTÃO 3 -->
+            <li>
+              <div>
+                <img src="./src/assets/img/user4.svg" alt="Júlia Martins" />
+                <div>
+                  <h2>Júlia Martins</h2>
+                  <p>Fullstack Engineer</p>
+                </div>
+              </div>
+              <button>Seguir</button>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- ÁREA 2 (LISTAGEM DE POSTS) -->
+      <section>
+        <h2>Posts</h2>
+        <!-- POST 1 -->
+        <article>
+          <div>
+            <img src="./src/assets/img/user5.svg" alt="Iris Silva" />
+            <div>
+              <h2>Iris Silva</h2>
+              <p>Front end Engineer</p>
+            </div>
+          </div>
+          <h2>
+            Empresa de Tecnologia da Informação abre vagas para programa de
+            estágio
+          </h2>
+          <p>
+            A Framework Digital, empresa mineira especializada em Tecnologia da
+            Informação, irá iniciar o seu sexto programa de estágio, com o prazo
+            de inscrições entre os dias 08 e 28 de agosto. O programa é
+            conhecido como Framework Padawans, com inspiração nos filmes Star
+            Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar
+            cavaleiros Jedi, que compõem o lado bom da força.
+          </p>
+          <div>
+            <button>Abrir Post</button>
+            <div>
+              <img
+                src="src/assets/img/gray-heart.svg"
+                alt="Empty Heart(Post not liked)"
+              />
+              <small>25</small>
+            </div>
+          </div>
+        </article>
+
+        <!-- POST 2 -->
+        <article>
+          <div>
+            <img src="./src/assets/img/user6.svg" alt="Carla Maria" />
+            <div>
+              <h2>Carla Maria</h2>
+              <p>Back end Engineer</p>
+            </div>
+          </div>
+          <h2>
+            Programa de estágio abre vagas em Segurança da Informação com regime
+            remoto
+          </h2>
+          <p>
+            Em Segurança da Informação, as vagas são destinadas às áreas de
+            Security Operations Center (SOC), Administração de Dispositivos de
+            Segurança (ADS), Resposta a Incidentes (RI), Segurança e Privacidade
+            e Consultoria Técnica. O candidato interessado deverá estar
+            matriculado em um curso superior em Ciência da Computação, Segurança
+            da Informação, Tecnologia da Informação e afins, com previsão de
+            conclusão do curso de fevereiro de 2023 a fevereiro de 2025.
+          </p>
+          <div>
+            <button>Abrir Post</button>
+            <div>
+              <img
+                src="src/assets/img/gray-heart.svg"
+                alt="Empty Heart(Post not liked)"
+              />
+              <small>19</small>
+            </div>
+          </div>
+        </article>
+
+        <!-- POST 3 -->
+        <article>
+          <div>
+            <img src="./src/assets/img/user7.svg" alt="João Carvalho" />
+            <div>
+              <h2>João Carvalho</h2>
+              <p>Devop's</p>
+            </div>
+          </div>
+          <h2>
+            O que é programação orientada a objetos e programação funcional
+          </h2>
+          <p>
+            A Programação Funcional é uma orientação focada na programação
+            declarativa. Conhecendo mais a programação funcional a partir de
+            códigos podemos nos deparar de primeira com o conceito mais central
+            da programação funcional, que é o conceito de funções puras, isso
+            significa que o retorno de uma função deve depender apenas dos seus
+            parâmetros de entrada. Com classes podemos editar os valores das
+            propriedades dos objetos criados ou ainda criar métodos para essas
+            propriedades, ainda por cima podemos definir se vão ser públicos
+            (vão para o objeto) ou estáticos (não são instanciados, ou seja, não
+            vão para o objeto), e isso tem seu lado bom e ruim.
+          </p>
+          <div>
+            <button>Abrir Post</button>
+            <div>
+              <img
+                src="src/assets/img/gray-heart.svg"
+                alt="Empty Heart(Post not liked)"
+              />
+              <small>8</small>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
