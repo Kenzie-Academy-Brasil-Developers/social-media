@@ -1,0 +1,29 @@
+.font-title-1 {
+    font-size: var(--font-title-1-size);
+    font-weight: var(--font-title-1-weight);
+    line-height: var(--font-title-1-line);
+}
+
+.font-title-2 {
+    font-size: var(--font-title-2-size);
+    font-weight: var(--font-title-2-weight);
+    line-height: var(--font-title-2-line);
+}
+
+.font-text-1 {
+    font-size: var(--font-text-1-size);
+    font-weight: var(--font-text-1-weight);
+    line-height: var(--font-text-1-line);
+}
+
+.font-text-2 {
+    font-size: var(--font-text-2-size);
+    font-weight: var(--font-text-2-weight);
+    line-height: var(--font-text-2-line);
+}
+
+.font-text-3 {
+    font-size: var(--font-text-3-size);
+    font-weight: var(--font-text-3-weight);
+    line-height: var(--font-text-3-line);
+}

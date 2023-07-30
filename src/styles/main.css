@@ -1,0 +1,142 @@
+/*Contéudo principal*/
+.container__main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Criação de um novo post*/
+.container__createPost {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+.container__newPost {
+    min-width: 30%;
+}
+
+.container__profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.image__profile {
+    height: 3.125rem;
+}
+
+.profile__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.work__author {
+    color: var(--color-grey2);
+}
+
+/*formulário de criação de novo post*/
+
+.submit__post {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.submit__subject {
+    max-width: 100%;
+    height: 3.5rem;
+}
+
+.submit__subject[type='text'],
+.submit__text[type='text'] {
+    padding: 0.625rem;
+}
+
+.submit__text {
+    width: 100%;
+    height: 10rem;
+}
+
+.submit__btn {
+    align-self: flex-end;
+}
+
+.submit__subject:focus {
+    border: 2px solid var(--color-brand-2);
+    outline: none;
+}
+
+.submit__text:focus {
+    border: 2px solid var(--color-brand-2);
+    outline: none;
+}
+
+.submit__text {
+    resize: none;
+}
+
+/*Sugestão para seguir*/
+.container__suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+
+
+}
+
+.container__follow {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.list__suggestion {
+    width: 304px;
+    justify-content: space-between;
+    display: flex;
+    gap: 3rem;
+}
+
+
+/*Area de Postostagens*/
+
+.container__posts {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 0 2rem 6rem;
+}
+
+.posts__post {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 80%;
+}
+
+.post__actions {
+    display: flex;
+    gap: 2rem;
+}
+
+.post__likes {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+
+.post__heart-icon:active {
+
+    background-image: url(../assets/img/heart-red.svg);
+}

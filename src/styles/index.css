@@ -1,0 +1,41 @@
+@import url("./reset.css");
+@import url("./texts.css");
+@import url("./globalStyles.css");
+@import url('./buttons.css');
+@import url(./header.css);
+@import url(./main.css);
+
+@media (max-width: 1025px) {
+    .container__createPost {
+        flex-wrap: wrap;
+    }
+
+    .container__follow {
+        flex-direction: unset;
+    }
+
+    .list__suggestion {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .container__profile {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* @media(max-width: 1200) {
+    container__createPost {
+        display: flex;
+        flex-direction: column;
+    }
+} */

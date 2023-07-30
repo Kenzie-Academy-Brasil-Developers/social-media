@@ -1,0 +1,53 @@
+:root {
+    /*Cores principais*/
+    --color-brand-1: #4263eb;
+    --color-brand-2: #364fc7;
+
+    /*Cores cinzas*/
+    --color-grey0: #0a0c0d;
+    --color-grey1: #212529;
+    --color-grey2: #495057;
+    --color-grey3: #868E96;
+    --color-grey4: #dee2e6;
+    --color-grey5: #F8F9FA;
+    --color-grey-opacity-1: rgba(33, 37, 41, 0.5);
+    --color-WhiteFixed: #ffffff;
+
+    /*Cor de feedback*/
+    --color-like: #d7443e;
+
+    /*Estilo da fonte */
+    --font-default: 'inter', sans-serif;
+
+    /* Title 1 */
+    --font-title-1-size: 1.75rem;
+    --font-title-1-weight: 700;
+    --font-title-1-line: 2.5rem;
+
+    /* Title 2 */
+    --font-title-2-size: 1.25rem;
+    --font-title-2-weight: 600;
+    --font-title-2-line: 1.5rem;
+
+    /* Text 1 */
+    --font-text-1-size: 1rem;
+    --font-text-1-weight: 400;
+    --font-text-1-line: 1.75rem;
+
+    /* Text 2 */
+    --font-text-2-size: 0.87rem;
+    --font-text-2-weight: 400;
+    --font-text-2-line: 1rem;
+
+    /* Text 3 */
+    --font-text-3-size: 0.75rem;
+    --font-text-3-weight: 400;
+    --font-text-3-line: 1rem;
+}
+
+input,
+textarea {
+    font-size: var(--font-text-1-size);
+    color: var(--color-grey2);
+    border: 2px solid var(--color-grey4);
+}

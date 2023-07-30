@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    background-color: var(--color-grey1);
+    justify-content: space-around;
+    gap: 60%;
+}
+
+.header__logout {
+    color: var(--color-WhiteFixed);
+    cursor: pointer;
+}
