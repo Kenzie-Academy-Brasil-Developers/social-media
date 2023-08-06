@@ -16,6 +16,12 @@
     line-height: var(--font-text-1-line);
 }
 
+.font-text-1-modal{
+    font-size: var(--font-text-1-size);
+    font-weight: var(--font-text-1-weight);
+    line-height: var(--font-text-1-line);
+}
+
 .font-text-2 {
     font-size: var(--font-text-2-size);
     font-weight: var(--font-text-2-weight);
