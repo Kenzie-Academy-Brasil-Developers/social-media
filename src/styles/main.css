@@ -50,12 +50,14 @@
 }
 
 .submit__subject {
+
     max-width: 100%;
     height: 3.5rem;
 }
 
 .submit__subject[type='text'],
 .submit__text[type='text'] {
+    border: 2px solid var(--color-grey4);
     padding: 0.625rem;
 }
 
@@ -98,7 +100,7 @@
 }
 
 .list__suggestion {
-    width: 304px;
+    width: 350px;
     justify-content: space-between;
     display: flex;
     gap: 3rem;

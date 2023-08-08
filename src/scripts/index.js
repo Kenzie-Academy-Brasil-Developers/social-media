@@ -50,7 +50,7 @@ function createPostElements(object){
     description.classList.add('font-text-1');
 
     divButton.classList.add('post__actions');
-    button.classList.add('text--bold', 'open-post');
+    button.classList.add('text--bold', 'open__post');
     button.innerText = 'Abrir Post';
     button.id = object.id;
 
@@ -121,7 +121,7 @@ function modalCard(object){
 
 //cria um modal que interage com os posts
 function handleModal(array) {
-  const buttons = document.querySelectorAll(".open-post");
+  const buttons = document.querySelectorAll(".open__post");
   const modalController = document.querySelector(".modal__controller");
   
   let profile = {};
